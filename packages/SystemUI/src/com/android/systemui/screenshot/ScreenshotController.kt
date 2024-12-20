@@ -519,7 +519,6 @@ internal constructor(
                 screenshot.bitmap,
                 screenshot.getUserOrDefault(),
                 display.displayId,
-                packageName,
             )
         future.addListener(
             {
